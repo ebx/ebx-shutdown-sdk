@@ -1,3 +1,4 @@
+[![Maven Central](https://img.shields.io/maven-central/v/com.echobox/ebx-shutdown-sdk.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.echobox%22%20AND%20a:%22ebx-shutdown-sdk%22) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/ebx/ebx-shutdown-sdk/master/LICENSE) [![Build Status](https://travis-ci.org/ebx/ebx-shutdown-sdk.svg?branch=dev)](https://travis-ci.org/ebx/ebx-shutdown-sdk)
 # ebx-shutdown-sdk
 
 Listening for and responding gracefully to application shutdown is common boilerplate. Whilst it's
@@ -22,3 +23,15 @@ Implementations included are:
 * `WatchingShutdownMonitor` (and `WatchingShutdownMonitor.Builder`) - Extends
  `SimpleShutdownMonitor`. Can also be configured to listen for a shutdown file
   (`listenForShutdownFile`) and SIGTERM (`registerShutdownHook`).
+
+## Installation
+
+For our latest stable release use:
+
+```
+<dependency>
+  <groupId>com.echobox</groupId>
+  <artifactId>ebx-shutdown-sdk</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
