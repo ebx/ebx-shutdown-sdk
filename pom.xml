@@ -49,7 +49,6 @@
       <organizationUrl>http://www.echobox.com</organizationUrl>
     </developer>
   </developers>
-
   <dependencies>
     <!-- Add the dependencies here -->
     <dependency>
