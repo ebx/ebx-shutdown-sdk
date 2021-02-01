@@ -31,7 +31,7 @@ For our latest stable release use:
 ```
 <dependency>
   <groupId>com.echobox</groupId>
-  <artifactId>ebx-shutdown-sdk</artifactId>
+  <artifactId>Shutdown</artifactId>
   <version>1.0.0</version>
 </dependency>
 ```
