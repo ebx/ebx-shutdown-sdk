@@ -30,7 +30,7 @@ import java.util.Set;
 /**
  * A wrapper class that can be used to signal request for shutdown of long running
  * operations. 
- * <P/>
+ * <P>
  * Can be configured to shutdown on the shutdown monitor when a shutdown file is created in the 
  * application's working directory, the set shutdown method is called or optionally when a 
  * SIGTERM signal is sent.
