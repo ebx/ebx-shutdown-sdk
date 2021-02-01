@@ -8,7 +8,7 @@
   <url>https://github.com/ebx/ebx-shutdown-sdk</url>
   
   <groupId>com.echobox</groupId>
-  <artifactId>ebx-shutdown-sdk</artifactId>
+  <artifactId>Shutdown</artifactId>
   <version>1.1.0</version>
   <packaging>jar</packaging>
 
