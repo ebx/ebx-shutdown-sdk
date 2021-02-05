@@ -12,7 +12,7 @@ experience has shown it only takes one dependency to do this incorrectly for the
 application to close ungracefully. This SDK intends to provide an alternative way of
 guaranteeing graceful shutdowns.
 
-* `ShutdownMonitor` is an interface for requesting a shutdown, `setShutdownRequested` and
+* `ShutdownMonitor` is an interface for requesting a shutdown, `setShutdownRequested`, and
  checking for if a shutdown has been requested, `isShutdownRequested`.
 * `ShutdownRequestedException` is provided as an optional way for handling resource cleanup during
  shutdown.
@@ -32,6 +32,6 @@ For our latest stable release use:
 <dependency>
   <groupId>com.echobox</groupId>
   <artifactId>Shutdown</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
 </dependency>
 ```
